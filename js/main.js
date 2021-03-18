@@ -4,7 +4,12 @@ $("#CRM-Key-set-btn").click(function () {
 });
 
 $("#CRM-Key-check-btn").click(function () {
-  alert(getCookie("crmkey"));
+  var currentCookie = getCookie("crmkey");
+  if(currentCookie == null){
+    alert("Could not find a valid cookie.");
+  }else{
+    alert(currentCookie);
+  }
 });
 
 $("#CRM-Key-delete-btn").click(function () {
