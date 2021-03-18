@@ -4,6 +4,6 @@ $("#CRM-Key-set-btn").click(function () {
   });
   
   $("#CRM-Key-check-btn").click(function () {
-    alert(getCookie("crm-key"));
+    alert(getCookie("crmkey"));
   });
   
