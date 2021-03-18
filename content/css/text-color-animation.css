@@ -1,0 +1,70 @@
+@keyframes text-color-gradient-animation{
+    0% { color: var(--color-a1);}
+    16% {color: var(--color-a2);}
+    33% {color: var(--color-a3);}
+    50% {color: var(--color-a4);}
+    66% {color: var(--color-a5);}
+    83% {color: var(--color-a6);}
+    100% {color: var(--color-a1);}
+}
+
+.animation-span-1{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -10s;
+    animation-iteration-count: infinite;
+}
+.animation-span-2{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -9s;
+    animation-iteration-count: infinite;
+}
+.animation-span-3{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -8s;
+    animation-iteration-count: infinite;
+}
+.animation-span-4{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -7s;
+    animation-iteration-count: infinite;
+}
+.animation-span-5{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -6s;
+    animation-iteration-count: infinite;
+}
+.animation-span-6{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -5s;
+    animation-iteration-count: infinite;
+}
+.animation-span-7{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -4s;
+    animation-iteration-count: infinite;
+}
+.animation-span-8{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+}
+.animation-span-9{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+}
+.animation-span-10{
+    animation-name: text-color-gradient-animation;
+    animation-duration: 10s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,30 @@
+:root{
+    --color-l1: #fdf6e3;
+    --color-l2: #eee8d5;
+    --color-d1: #002b36;
+    --color-d2: #073642;
+    --color-a1: #b58900;
+    --color-a2: #cb4b16;
+    --color-a3: #dc322f;
+    --color-a4: #d33682;
+    --color-a5: #6c71c4;
+    --color-a6: #268bd2;
+    --color-h1: #2aa198;
+    --color-h2: #859900;
+}
+
+body{
+    color: var(--color-l1);
+    background-color: var(--color-d1);
+    font-family: 'Roboto Slab', serif;
+    padding: 1%;
+}
+
+input{
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--color-d2);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
