@@ -1,6 +1,7 @@
 $("#CRM-Key-set-btn").click(function () {
   var key = $("#CRM-Key-input-field").val();
   setCookie("crmkey", key, 10);
+  setKey();
 });
 
 $("#CRM-Key-check-btn").click(function () {
@@ -10,8 +11,10 @@ $("#CRM-Key-check-btn").click(function () {
   }else{
     alert(currentCookie);
   }
+  setKey();
 });
 
 $("#CRM-Key-delete-btn").click(function () {
   eraseCookie("crmkey");
+  setKey();
 })
