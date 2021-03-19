@@ -5,7 +5,7 @@ function atRequest(){
              xhr.setRequestHeader("Authorization", "Bearer " + currentCRMKey)
         }, success: function(data){
             alert(data);
-            //process the JSON data etc
+            console.log(data);
         }
     })
 }

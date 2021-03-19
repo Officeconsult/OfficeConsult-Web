@@ -1,7 +1,7 @@
 var currentCRMKey;
 
 function setKey(){
-    crmKey = getCookie(crmkey)
+    currentCRMKey = getCookie("crmkey")
 }
 
 function setCookie(name,value,days) {
